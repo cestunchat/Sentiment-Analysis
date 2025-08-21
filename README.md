@@ -1,5 +1,11 @@
 # Vietnamese Student Feedback Sentiment Analysis using phoBERT and LoRA Fine-tuning
 
+## Introduction
+
+This project performs sentiment analysis on Vietnamese text, helping to identify positive, negative, or neutral sentiment from input sentences. The application can be used for product reviews, social media comments, and more.
+
+Specifically, this project uses the [Vietnamese Students Feedback](https://huggingface.co/datasets/uitnlp/vietnamese_students_feedback) dataset from UIT NLP, which is provided free for research and non-commercial purposes.
+
 ## Project Purpose
 
 The purpose of this project is to perform sentiment analysis on Vietnamese student feedback using advanced NLP techniques, specifically phoBERT and LoRA fine-tuning. By leveraging phoBERT—a pre-trained language model for Vietnamese—and applying LoRA (Low-Rank Adaptation) fine-tuning, the project aims to achieve high accuracy in classifying sentiment from text data.
@@ -7,12 +13,6 @@ The purpose of this project is to perform sentiment analysis on Vietnamese stude
 ### Why use LoRA Fine-tuning?
 
 LoRA fine-tuning is chosen because it allows efficient adaptation of large pre-trained models like phoBERT with significantly fewer trainable parameters. This technique reduces computational resources and memory usage, making it possible to fine-tune powerful models even with limited hardware. LoRA also helps prevent overfitting and improves generalization, which is especially useful when working with domain-specific datasets such as student feedback.
-
-## Introduction
-
-This project performs sentiment analysis on Vietnamese text, helping to identify positive, negative, or neutral sentiment from input sentences. The application can be used for product reviews, social media comments, and more.
-
-Specifically, this project uses the [Vietnamese Students Feedback](https://huggingface.co/datasets/uitnlp/vietnamese_students_feedback) dataset from UIT NLP, which is provided free for research and non-commercial purposes.
 
 ## Features
 
@@ -60,6 +60,7 @@ jupyter nbconvert --to notebook --execute model.ipynb
 
 - [Vietnamese Students Feedback](https://huggingface.co/datasets/uitnlp/vietnamese_students_feedback) from UIT NLP, free for research and non-commercial use.
 
-## Contribution
+## For More Information
 
-All contributions are welcome! Please create a pull request or issue if you want to contribute or report bugs.
+For more information, please see the project slide:
+[Project Slide](https://drive.google.com/file/d/1DZ2KNUXd0OWn6Qn_PsbCwS_s8LTP7N6a/view?usp=sharing)
