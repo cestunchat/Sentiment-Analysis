@@ -47,8 +47,6 @@ jupyter nbconvert --to notebook --execute model.ipynb
 - `saved_model/`: Final saved model and evaluation results
   - `phobert-lora/`: Folder containing the fine-tuned LoRA model
   - `test_eval_metrics.json`: Evaluation results on the test set
-- `README.md`: Project documentation
-- `.gitignore`: Git ignore configuration
 
 ## Dataset
 
