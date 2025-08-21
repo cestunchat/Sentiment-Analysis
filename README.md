@@ -44,7 +44,6 @@ jupyter nbconvert --to notebook --execute model.ipynb
 - `results/`: Contains model checkpoints during training
   - `checkpoint-xxxx/`: Checkpoint folder for each training stage
     - `adapter_model.safetensors`: LoRA model weights
-    - `README.md`: Model information at each checkpoint
 - `saved_model/`: Final saved model and evaluation results
   - `phobert-lora/`: Folder containing the fine-tuned LoRA model
   - `test_eval_metrics.json`: Evaluation results on the test set
